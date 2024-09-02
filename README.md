@@ -1,5 +1,6 @@
 # RubyOnRailsTutorial
-full course for beginners
+
+## Somre useful commands:
 
 Once your project is created, run:
 
@@ -11,4 +12,10 @@ To run the server locally:
 
 ```git
 $ rails s
+```
+
+To see all of the routes that your app is using:
+
+```git
+$ rails routes
 ```
