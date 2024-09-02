@@ -1,6 +1,6 @@
 # RubyOnRailsTutorial
 
-## Somre useful commands:
+**Some useful commands:**
 
 Once your project is created, run:
 
