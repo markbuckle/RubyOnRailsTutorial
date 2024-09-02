@@ -3,6 +3,6 @@ full course for beginners
 
 Once your project is created, run:
 
-'''git
+```git
 $ rails g controller home index
-'''
+```
