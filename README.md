@@ -31,3 +31,8 @@ $ rails g scaffold (name of table) (column1:datatype1) (column2:datatype2) etc..
 ```
 
 You can find all the different data types (string, integer, text, etc.) [here: Rails Migration Guide](https://guides.rubyonrails.org/v3.2/migrations.html)
+
+You can push the migration into the database using:
+```git
+$ rails db:migrate
+```
