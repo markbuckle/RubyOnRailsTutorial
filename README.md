@@ -111,7 +111,7 @@ To make it so that only the logged in user can edit things, you should:
 
 
 
-<h4>[Link to the tutorial video](https://www.youtube.com/watch?v=fmyvWz5TUWg)</h4>
+[Link to the tutorial video](https://www.youtube.com/watch?v=fmyvWz5TUWg)
 
 
   
