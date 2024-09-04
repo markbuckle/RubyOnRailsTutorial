@@ -135,6 +135,10 @@ $ mkdir ~/.ssh (create ssh directory)
 $ cd ~/.ssh (go to key location)
 $ ssh-keygen.exe (to generate your key, don't enter a password)
 $ cat id_rsa.pub (to see your key)
+$ cd (go back to your projects directory)
+$ git remote add origin git@github.com/markbuckle/your-repository.git
+$ git branch -M main
+$ git push -u origin main
 
 [Link to the tutorial video](https://www.youtube.com/watch?v=fmyvWz5TUWg)
 
