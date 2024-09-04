@@ -130,7 +130,7 @@ $ git add .
 $ git commit -am 'initial commit'
 
 Push to GitHub:
-
+<ul>
 $ mkdir ~/.ssh (create ssh directory)
 $ cd ~/.ssh (go to key location)
 $ ssh-keygen.exe (to generate your key, don't enter a password)
@@ -139,6 +139,7 @@ $ cd (go back to your projects directory)
 $ git remote add origin git@github.com/markbuckle/your-repository.git
 $ git branch -M main
 $ git push -u origin main
+</ul>
 
 [Link to the tutorial video](https://www.youtube.com/watch?v=fmyvWz5TUWg)
 
