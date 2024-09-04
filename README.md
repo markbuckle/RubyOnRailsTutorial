@@ -107,9 +107,15 @@ To make it so that only the logged in user can edit things, you should:
 
    Also add this line to your code in the tbody: <% if friend.user == current_user %>
 
+<h3>Controllers</h3>
 
-
-
+Controllers play a crucial role in the MVC (Model-View-Controller) architecture. They:
+1) **Handle Requests:** Controllers are responsible for handling incoming HTTP requests. When a request is made to your application, the router determines which controller and action to use. The controller then processes the request and prepares the appropriate response.
+2) **Interact with Models:** Controllers often interact with models to retrieve or save data. For example, when a user submits a form, the controller might create a new record in the database using a model.
+3) **Render Views:** After processing the request and interacting with models, controllers render views to generate the HTML (or other formats like JSON, XML) that is sent back to the user’s browser. The view templates are responsible for displaying the data to the user.
+4) **Manages Sessions and Cookies:** Controllers can manage sessions and cookies to store data between requests. This is useful for things like user authentication, where you need to keep track of a user’s login state1.
+5) **Handle Filters and Callbacks:** Controllers can use filters and callbacks to execute code before, after, or around actions. This is useful for tasks like authentication, logging, or modifying request parameters.
+6) **Error Handling:** Controllers can handle exceptions that occur during request processing, ensuring that your application can gracefully handle errors and provide meaningful feedback to users.
 
 [Link to the tutorial video](https://www.youtube.com/watch?v=fmyvWz5TUWg)
 
