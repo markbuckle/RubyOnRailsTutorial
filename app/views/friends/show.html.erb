@@ -1,0 +1,28 @@
+<p style="color: green"><%= notice %></p>
+
+<div class="jumbotron">
+  <h1 class="display-4"><%= @friend.first_name %>
+    <%= @friend.last_name %>
+  </h1>
+  <p>
+    <strong>Email:</strong>
+    <%= @friend.email %>
+  </p>
+  <p>
+    <strong>Phone:</strong>
+    <%= @friend.phone %>
+  </p>
+  <p>
+    <strong>Twitter:</strong>
+    <%= @friend.twitter %>
+  </p>
+  <hr class="my-4">
+  <div>
+  <%= link_to "Edit this friend", edit_friend_path(@friend), class:"btn btn-secondary" %> |
+  <%= link_to "Back to friends", friends_path, class:"btn btn-secondary" %> | 
+  <%= button_to "Delete this friend", @friend, method: :delete, class:"btn btn-danger", data: { confirm: "Are you sure?" } %>
+</div>
+</div>
+
+
+
