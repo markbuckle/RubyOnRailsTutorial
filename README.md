@@ -120,25 +120,25 @@ Controllers play a crucial role in the MVC (Model-View-Controller) architecture.
 <h3>Git/GitHub Steps</h3>
 
 Setup Git & save all of our code to a local repository with the following steps:
-
-$ git config --global user.name "Your Name"
-$ git config --global user.email "you@youraddress.com"
-$ git config --global push.default matching
-$ git config --global alias.co checkout
-$ git init
-$ git add .
-$ git commit -am 'initial commit'
-
+<ul>
+<li>$ git config --global user.name "Your Name"</li>
+<li>$ git config --global user.email "you@youraddress.com"</li>
+<li>$ git config --global push.default matching</li>
+<li>$ git config --global alias.co checkout</li>
+<li>$ git init</li>
+<li>$ git add .</li>
+<li>$ git commit -am 'initial commit'</li>
+</ul>
 Push to GitHub:
 <ul>
-$ mkdir ~/.ssh (create ssh directory)
-$ cd ~/.ssh (go to key location)
-$ ssh-keygen.exe (to generate your key, don't enter a password)
-$ cat id_rsa.pub (to see your key)
-$ cd (go back to your projects directory)
-$ git remote add origin git@github.com/markbuckle/your-repository.git
-$ git branch -M main
-$ git push -u origin main
+<li>$ mkdir ~/.ssh (create ssh directory)</li>
+<li>$ cd ~/.ssh (go to key location)</li>
+<li>$ ssh-keygen.exe (to generate your key, don't enter a password)</li>
+<li>$ cat id_rsa.pub (to see your key)</li>
+<li>$ cd (go back to your projects directory)</li>
+<li>$ git remote add origin git@github.com/markbuckle/your-repository.git</li>
+<li>$ git branch -M main</li>
+<li>$ git push -u origin main</li>
 </ul>
 
 [Link to the tutorial video](https://www.youtube.com/watch?v=fmyvWz5TUWg)
