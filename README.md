@@ -141,4 +141,12 @@ Push to GitHub:
 <li>$ git push -u origin main</li>
 </ul>
 
+<h3>Deploy with Heroku</h3>
+
+[Download the Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+
+[Login to Heroku](https://dashboard.heroku.com/apps)
+
+Follow the tutorial video at 3:48:00 for the remaining deployment steps
+
 [Link to the tutorial video](https://www.youtube.com/watch?v=fmyvWz5TUWg)
