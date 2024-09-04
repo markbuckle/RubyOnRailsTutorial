@@ -117,6 +117,25 @@ Controllers play a crucial role in the MVC (Model-View-Controller) architecture.
 5) **Handle Filters and Callbacks:** Controllers can use filters and callbacks to execute code before, after, or around actions. This is useful for tasks like authentication, logging, or modifying request parameters.
 6) **Error Handling:** Controllers can handle exceptions that occur during request processing, ensuring that your application can gracefully handle errors and provide meaningful feedback to users.
 
+<h3>Git/GitHub Steps</h3>
+
+Setup Git & save all of our code to a local repository with the following steps:
+
+$ git config --global user.name "Your Name"
+$ git config --global user.email "you@youraddress.com"
+$ git config --global push.default matching
+$ git config --global alias.co checkout
+$ git init
+$ git add .
+$ git commit -am 'initial commit'
+
+Push to GitHub:
+
+$ mkdir ~/.ssh (create ssh directory)
+$ cd ~/.ssh (go to key location)
+$ ssh-keygen.exe (to generate your key, don't enter a password)
+$ cat id_rsa.pub (to see your key)
+
 [Link to the tutorial video](https://www.youtube.com/watch?v=fmyvWz5TUWg)
 
 
