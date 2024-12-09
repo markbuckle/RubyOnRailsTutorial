@@ -1,4 +1,4 @@
-# Ruby on Rails Tutorial
+## Ruby on Rails Tutorial
 
 <h3>Some useful commands:</h3>
 
